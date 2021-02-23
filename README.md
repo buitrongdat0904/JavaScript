@@ -46,11 +46,11 @@ Một lần nữa, JavaScript là một ngôn ngữ chương trình thông dịc
 
 # Cú pháp của JavaScript
 
-JavaScript có thể được thực hiện bởi sử dụng các lệnh JavaScript mà được đặt trong thẻ HTML <script>... </script> trong một trang web.
+JavaScript có thể được thực hiện bởi sử dụng các lệnh JavaScript mà được đặt trong thẻ HTML < script>... < /script> trong một trang web.
 
-Bạn có thể đặt các thẻ <script>, chứa JavaScript của bạn, bất cứ đâu trong trang của bạn, nhưng được đề nghị là bạn nên giữ nó trong các thẻ <head>.
+Bạn có thể đặt các thẻ < script>, chứa JavaScript của bạn, bất cứ đâu trong trang của bạn, nhưng được đề nghị là bạn nên giữ nó trong các thẻ < head>.
 
-- Thẻ  <script> báo cho chương trình trình duyệt bắt đầu phiên dịch tất cả văn bản ở giữa các thẻ này như là một script. Một cú pháp đơn giản của JavaScript sẽ xuất hiện như sau:
+- Thẻ  < script> báo cho chương trình trình duyệt bắt đầu phiên dịch tất cả văn bản ở giữa các thẻ này như là một script. Một cú pháp đơn giản của JavaScript sẽ xuất hiện như sau:
 
             <script ...>
             JavaScript code
