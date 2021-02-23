@@ -44,3 +44,20 @@ JavaScript không có bất kỳ khả năng đa luồng hoặc đa xử lý.
 
 Một lần nữa, JavaScript là một ngôn ngữ chương trình thông dịch, nhẹ mà cho phép bạn xây dựng khả năng tương tác trong các trang HTML tĩnh.
 
+# Cú pháp của JavaScript
+
+JavaScript có thể được thực hiện bởi sử dụng các lệnh JavaScript mà được đặt trong thẻ HTML <script>... </script> trong một trang web.
+
+Bạn có thể đặt các thẻ <script>, chứa JavaScript của bạn, bất cứ đâu trong trang của bạn, nhưng được đề nghị là bạn nên giữ nó trong các thẻ <head>.
+
+- Thẻ  <script> báo cho chương trình trình duyệt bắt đầu phiên dịch tất cả văn bản ở giữa các thẻ này như là một script. Một cú pháp đơn giản của JavaScript sẽ xuất hiện như sau:
+
+            <script ...>
+            JavaScript code
+            </script>
+
+- Thẻ script nhận hai thuộc tính quan trọng sau:
+
+Language − Thuộc tính này xác định ngôn ngữ scripting nào bạn đang sử dụng. Giá trị của nó sẽ là javascript. Mặc dù các phiên bản gần đây của HTML (và XHTML) đã thôi dần không sử dụng thuộc tính này nữa.
+
+Type − Thuộc tính này là những gì bây giờ được đề nghị sử dụng và giá trị của nó nên được thiết lập là "text/javascript".
